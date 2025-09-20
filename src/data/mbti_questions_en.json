@@ -1,0 +1,224 @@
+[
+	{
+		"id": 1,
+		"question": "Do you prefer working in a group rather than alone?",
+		"dimension": "IE",
+		"dimension_value": 1
+	},
+	{
+		"id": 2,
+		"question": "Do you often need time alone to recharge?",
+		"dimension": "IE",
+		"dimension_value": -1
+	},
+	{
+		"id": 3,
+		"question": "Do you enjoy starting conversations with strangers?",
+		"dimension": "IE",
+		"dimension_value": 1
+	},
+	{
+		"id": 4,
+		"question": "Do you like having enough time to think things through before acting?",
+		"dimension": "IE",
+		"dimension_value": -1
+	},
+	{
+		"id": 5,
+		"question": "Do you prefer to focus on details before making a big decision?",
+		"dimension": "SN",
+		"dimension_value": -1
+	},
+	{
+		"id": 6,
+		"question": "Are you more interested in theories and bigger patterns than concrete facts?",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 7,
+		"question": "Do you often look for larger connections in the world?",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 8,
+		"question": "Do you prefer relying on concrete facts over theories?",
+		"dimension": "SN",
+		"dimension_value": -1
+	},
+	{
+		"id": 9,
+		"question": "Is it important to you that your decisions take others’ feelings into account?",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 10,
+		"question": "When solving problems, do you rely more on logic and objective facts?",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 11,
+		"question": "Are your decisions usually influenced by emotions rather than logic?",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 12,
+		"question": "In conflicts, do you tend to focus more on objective facts than feelings?",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 13,
+		"question": "Do you like planning your day in advance and sticking to the schedule?",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 14,
+		"question": "Do you prefer spontaneous decisions over strict planning?",
+		"dimension": "JP",
+		"dimension_value": 1
+	},
+	{
+		"id": 15,
+		"question": "Do you like it when everything goes according to your plans?",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 16,
+		"question": "Do you prefer flexibility and spontaneous choices?",
+		"dimension": "JP",
+		"dimension_value": 1
+	},
+	{
+		"id": 17,
+		"question": "When starting a new project, do you first want to understand the small details?",
+		"dimension": "SN",
+		"dimension_value": -1
+	},
+	{
+		"id": 18,
+		"question": "Do you often follow your instincts, even if you have little concrete information?",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 19,
+		"question": "Do you like taking responsibility for your decisions, even if they are unpopular?",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 20,
+		"question": "Are you happier when you can help others with their decisions?",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 21,
+		"question": "Is meeting deadlines important to you?",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 22,
+		"question": "Do you like responding flexibly to unexpected situations?",
+		"dimension": "JP",
+		"dimension_value": 1
+	},
+	{
+		"id": 23,
+		"question": "When facing a difficult situation, do you first think through your options before acting?",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 24,
+		"question": "Do you like taking responsibility for group decisions?",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 25,
+		"question": "Do you prefer a friendly, supportive atmosphere over a competitive environment?",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 26,
+		"question": "Is it easy for you to introduce yourself to others?",
+		"dimension": "IE",
+		"dimension_value": 1
+	},
+	{
+		"id": 27,
+		"question": "Do you enjoy meeting new people and building relationships?",
+		"dimension": "IE",
+		"dimension_value": 1
+	},
+	{
+		"id": 28,
+		"question": "Do you often feel the need to be alone to recharge?",
+		"dimension": "IE",
+		"dimension_value": -1
+	},
+	{
+		"id": 29,
+		"question": "Do you like focusing on details and concrete facts?",
+		"dimension": "SN",
+		"dimension_value": -1
+	},
+	{
+		"id": 30,
+		"question": "Are you often more interested in theories and bigger patterns than specific details?",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 31,
+		"question": "Do you tend to make decisions based on logic and objective analysis?",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 32,
+		"question": "Are your decisions often influenced by your emotions and others’ feelings?",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 33,
+		"question": "Do you like things to be orderly and well-organized?",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 34,
+		"question": "Do you prefer a spontaneous and flexible lifestyle?",
+		"dimension": "JP",
+		"dimension_value": 1
+	},
+	{
+		"id": 35,
+		"question": "Do you often get so lost in your thoughts that you ignore or forget your surroundings?",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 36,
+		"question": "Do you try to reply to emails as soon as possible and dislike a messy inbox?",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 37,
+		"question": "Can you easily stay calm and collected even under pressure?",
+		"dimension": "TF",
+		"dimension_value": -1
+	}
+]

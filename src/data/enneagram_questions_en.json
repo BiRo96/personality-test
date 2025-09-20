@@ -1,0 +1,452 @@
+[
+    {
+        "id": 1,
+        "question": "Do you feel an inner drive to always do the 'right thing,' even if others don’t notice?",
+        "type": "1"
+    },
+    {
+        "id": 2,
+        "question": "Do you struggle when things are not orderly or fair?",
+        "type": "1"
+    },
+    {
+        "id": 3,
+        "question": "Does disorder or mistakes bother you?",
+        "type": "1"
+    },
+    {
+        "id": 4,
+        "question": "Do you often hear an inner critical voice that wants to improve you or others?",
+        "type": "1"
+    },
+    {
+        "id": 5,
+        "question": "Is discipline and self-control important to you?",
+        "type": "1"
+    },
+    {
+        "id": 6,
+        "question": "Is it hard for you to relax if you know something still needs to be done?",
+        "type": "1"
+    },
+    {
+        "id": 7,
+        "question": "Do you feel that others sometimes approach things too loosely or irresponsibly?",
+        "type": "1"
+    },
+    {
+        "id": 8,
+        "question": "Do you like following rules or guidelines?",
+        "type": "1"
+    },
+    {
+        "id": 9,
+        "question": "Do you feel valuable only when you behave as a good person?",
+        "type": "1"
+    },
+    {
+        "id": 10,
+        "question": "Does it bother you when someone else doesn’t follow shared norms?",
+        "type": "1"
+    },
+    {
+        "id": 11,
+        "question": "Do you easily notice others’ needs before they say them?",
+        "type": "2"
+    },
+    {
+        "id": 12,
+        "question": "Is it important for you to feel loved and needed?",
+        "type": "2"
+    },
+    {
+        "id": 13,
+        "question": "Is it hard for you to say no when someone asks for help?",
+        "type": "2"
+    },
+    {
+        "id": 14,
+        "question": "Do you feel valuable only when you are useful to others?",
+        "type": "2"
+    },
+    {
+        "id": 15,
+        "question": "Do you often put others’ needs before your own?",
+        "type": "2"
+    },
+    {
+        "id": 16,
+        "question": "Is it important for you to stay on good terms with everyone?",
+        "type": "2"
+    },
+    {
+        "id": 17,
+        "question": "Do you easily give love and care?",
+        "type": "2"
+    },
+    {
+        "id": 18,
+        "question": "Do you sometimes feel disappointed if your help isn’t reciprocated?",
+        "type": "2"
+    },
+    {
+        "id": 19,
+        "question": "Do you like giving gifts or small acts of kindness to others?",
+        "type": "2"
+    },
+    {
+        "id": 20,
+        "question": "Is it hard for you to admit when you are in need yourself?",
+        "type": "2"
+    },
+    {
+        "id": 21,
+        "question": "Do you often measure your worth by your achievements or successes?",
+        "type": "3"
+    },
+    {
+        "id": 22,
+        "question": "Is it important for you that others see you as successful and competent?",
+        "type": "3"
+    },
+    {
+        "id": 23,
+        "question": "Do you sometimes show others what they expect rather than what you truly feel?",
+        "type": "3"
+    },
+    {
+        "id": 24,
+        "question": "Do you approach life in a goal-oriented way?",
+        "type": "3"
+    },
+    {
+        "id": 25,
+        "question": "Do you enjoy being recognized or praised?",
+        "type": "3"
+    },
+    {
+        "id": 26,
+        "question": "Do you struggle with failure or lack of success?",
+        "type": "3"
+    },
+    {
+        "id": 27,
+        "question": "Do you feel you always need to keep moving forward?",
+        "type": "3"
+    },
+    {
+        "id": 28,
+        "question": "Is it important for you to make a good impression on others?",
+        "type": "3"
+    },
+    {
+        "id": 29,
+        "question": "Do you easily adapt to situations in order to succeed?",
+        "type": "3"
+    },
+    {
+        "id": 30,
+        "question": "Do you feel lovable only when you achieve something?",
+        "type": "3"
+    },
+    {
+        "id": 31,
+        "question": "Is it important for you to feel special or unique?",
+        "type": "4"
+    },
+    {
+        "id": 32,
+        "question": "Do you often feel like something is missing inside you?",
+        "type": "4"
+    },
+    {
+        "id": 33,
+        "question": "Are you strongly connected to deep emotions, even sadness?",
+        "type": "4"
+    },
+    {
+        "id": 34,
+        "question": "Do you like expressing yourself in creative ways?",
+        "type": "4"
+    },
+    {
+        "id": 35,
+        "question": "Do you feel that others sometimes don’t fully understand you?",
+        "type": "4"
+    },
+    {
+        "id": 36,
+        "question": "Are you prone to comparing yourself to others?",
+        "type": "4"
+    },
+    {
+        "id": 37,
+        "question": "Is authentic self-expression important to you?",
+        "type": "4"
+    },
+    {
+        "id": 38,
+        "question": "Do you sometimes long for the past with nostalgia?",
+        "type": "4"
+    },
+    {
+        "id": 39,
+        "question": "Do you like experiencing emotions deeply, even if they are painful?",
+        "type": "4"
+    },
+    {
+        "id": 40,
+        "question": "Do you feel that searching for your identity is a constant process?",
+        "type": "4"
+    },
+    {
+        "id": 41,
+        "question": "Do you like withdrawing and spending time in your own thoughts?",
+        "type": "5"
+    },
+    {
+        "id": 42,
+        "question": "Do you feel that knowledge and information give you security?",
+        "type": "5"
+    },
+    {
+        "id": 43,
+        "question": "Do you often conserve your energy or resources to avoid exhaustion?",
+        "type": "5"
+    },
+    {
+        "id": 44,
+        "question": "Do you prefer observing rather than participating?",
+        "type": "5"
+    },
+    {
+        "id": 45,
+        "question": "Are you interested in deeper, complex topics?",
+        "type": "5"
+    },
+    {
+        "id": 46,
+        "question": "Do you sometimes feel overwhelmed by others’ emotional demands?",
+        "type": "5"
+    },
+    {
+        "id": 47,
+        "question": "Do you trust logic more than emotions?",
+        "type": "5"
+    },
+    {
+        "id": 48,
+        "question": "Do you prefer independence and autonomy?",
+        "type": "5"
+    },
+    {
+        "id": 49,
+        "question": "Is too much social interaction difficult for you?",
+        "type": "5"
+    },
+    {
+        "id": 50,
+        "question": "Do you feel that your resources (time, energy, money) are limited?",
+        "type": "5"
+    },
+    {
+        "id": 51,
+        "question": "Do you often seek safety or reassurance in your environment?",
+        "type": "6"
+    },
+    {
+        "id": 52,
+        "question": "Do you frequently think through possible dangers before making decisions?",
+        "type": "6"
+    },
+    {
+        "id": 53,
+        "question": "Is it important for you to stay loyal to someone or something?",
+        "type": "6"
+    },
+    {
+        "id": 54,
+        "question": "Are you prone to worrying about the future?",
+        "type": "6"
+    },
+    {
+        "id": 55,
+        "question": "Do you feel safe when you belong to a group or community?",
+        "type": "6"
+    },
+    {
+        "id": 56,
+        "question": "Do you sometimes doubt your own decisions?",
+        "type": "6"
+    },
+    {
+        "id": 57,
+        "question": "Do you easily notice potential dangers?",
+        "type": "6"
+    },
+    {
+        "id": 58,
+        "question": "Are stability and predictability important to you?",
+        "type": "6"
+    },
+    {
+        "id": 59,
+        "question": "Do you sometimes become overly suspicious?",
+        "type": "6"
+    },
+    {
+        "id": 60,
+        "question": "Do you like relying on authorities or trustworthy leaders?",
+        "type": "6"
+    },
+    {
+        "id": 61,
+        "question": "Do you often plan new adventures or experiences to avoid boredom?",
+        "type": "7"
+    },
+    {
+        "id": 62,
+        "question": "Do you struggle with restrictions or painful feelings?",
+        "type": "7"
+    },
+    {
+        "id": 63,
+        "question": "Do you easily switch from one option to another because you don’t want to miss out on life’s pleasures?",
+        "type": "7"
+    },
+    {
+        "id": 64,
+        "question": "Do you look at life optimistically?",
+        "type": "7"
+    },
+    {
+        "id": 65,
+        "question": "Do you like running multiple projects at once?",
+        "type": "7"
+    },
+    {
+        "id": 66,
+        "question": "Is it hard for you to stay in one place for long?",
+        "type": "7"
+    },
+    {
+        "id": 67,
+        "question": "Do you feel that life is full of opportunities?",
+        "type": "7"
+    },
+    {
+        "id": 68,
+        "question": "Do you sometimes seek experiences as a distraction to avoid facing difficult feelings?",
+        "type": "7"
+    },
+    {
+        "id": 69,
+        "question": "Do you get easily excited about new things?",
+        "type": "7"
+    },
+    {
+        "id": 70,
+        "question": "Do you dislike monotony or routine?",
+        "type": "7"
+    },
+    {
+        "id": 71,
+        "question": "Is it natural for you to show strength and control?",
+        "type": "8"
+    },
+    {
+        "id": 72,
+        "question": "Do you dislike when others try to control you?",
+        "type": "8"
+    },
+    {
+        "id": 73,
+        "question": "Do you easily stand up for yourself or others when you see injustice?",
+        "type": "8"
+    },
+    {
+        "id": 74,
+        "question": "Do you often take on the leader role?",
+        "type": "8"
+    },
+    {
+        "id": 75,
+        "question": "Do you feel you must stay strong in order to survive?",
+        "type": "8"
+    },
+    {
+        "id": 76,
+        "question": "Are you unafraid of conflict, preferring to face it head-on?",
+        "type": "8"
+    },
+    {
+        "id": 77,
+        "question": "Is it difficult for you to show vulnerability?",
+        "type": "8"
+    },
+    {
+        "id": 78,
+        "question": "Are independence and autonomy important to you?",
+        "type": "8"
+    },
+    {
+        "id": 79,
+        "question": "Do you feel the world is a tough place where you must protect yourself?",
+        "type": "8"
+    },
+    {
+        "id": 80,
+        "question": "Are you prone to bringing intense energy into every situation?",
+        "type": "8"
+    },
+    {
+        "id": 81,
+        "question": "Is it important for you to avoid conflicts and maintain peace?",
+        "type": "9"
+    },
+    {
+        "id": 82,
+        "question": "Do you sometimes adapt to others rather than asserting your own will?",
+        "type": "9"
+    },
+    {
+        "id": 83,
+        "question": "Do you often try to understand every side of an issue?",
+        "type": "9"
+    },
+    {
+        "id": 84,
+        "question": "Is it difficult for you to stand up for yourself?",
+        "type": "9"
+    },
+    {
+        "id": 85,
+        "question": "Are inner harmony and calmness important to you?",
+        "type": "9"
+    },
+    {
+        "id": 86,
+        "question": "Are you prone to postponing decisions so you don’t disturb others?",
+        "type": "9"
+    },
+    {
+        "id": 87,
+        "question": "Do you easily go with the flow instead of resisting?",
+        "type": "9"
+    },
+    {
+        "id": 88,
+        "question": "Do you feel that peace is more important than self-assertion?",
+        "type": "9"
+    },
+    {
+        "id": 89,
+        "question": "Do you sometimes withdraw to avoid tension?",
+        "type": "9"
+    },
+    {
+        "id": 90,
+        "question": "Do you prefer quiet, calm environments over noisy, conflict-filled situations?",
+        "type": "9"
+    }
+]

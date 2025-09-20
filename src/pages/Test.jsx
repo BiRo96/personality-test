@@ -1,14 +1,27 @@
 import { useEffect, useState } from 'react'
 import calculateMBTI from '../services/calculate_mbti'
 import calculateEnneagram from '../services/calculate_enneagram'
-import mbti_questions from '../data/mbti_questions.json'
-import enneagram_questions from '../data/enneagram_questions.json'
+import mbti_questions_hu from '../data/mbti_questions_hu.json'
+import enneagram_questions_hu from '../data/enneagram_questions_hu.json'
+import mbti_questions_en from '../data/mbti_questions_en.json'
+import enneagram_questions_en from '../data/enneagram_questions_en.json'
 import TestForm from '../partials/TestForm'
-import LangHandler from '../components/lang_handler'
+import LangHandler, { __ } from '../components/lang_handler'
+
+var mbti_questions_translations = {
+    'en': mbti_questions_en,
+    'hu': mbti_questions_hu
+}
+var enneagram_questions_translations = {
+    'en': enneagram_questions_en,
+    'hu': enneagram_questions_hu
+}
 
 function Test() {
     let lang = LangHandler();
-    
+    let mbti_questions = mbti_questions_translations[lang]
+    let enneagram_questions = enneagram_questions_translations[lang]
+
     const [mbtiAnswers, setMbtiAnswers] = useState(mbti_questions.map(q => ({...q, answer: 0})))
     const [mbtiPonts, setMbtiPoints] = useState({'IE' : 0, 'SN': 0, 'TF': 0, 'JP': 0})
     const [enneagramAnswers, setEnneagramAnswers] = useState(enneagram_questions.map(q => ({...q, answer: 0})))
