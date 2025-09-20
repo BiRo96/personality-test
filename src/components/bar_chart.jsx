@@ -36,6 +36,13 @@ export default function BarChart({ name, points }) {
             legend: {
                 position: "",
             },
+            tooltip: {
+                callbacks: {
+                    label: function (tooltipItem) {
+                    return ``;
+                    },
+                },
+            },
         },
     };
 

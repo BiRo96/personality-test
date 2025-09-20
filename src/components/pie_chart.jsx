@@ -11,7 +11,7 @@ export default function PieChart({name, points}) {
         labels: Object.keys(points),
         datasets: [
             {
-                label: {name} + " diagram",
+                label: name + " diagram",
                 data: Object.values(points),
                 backgroundColor: [
                     "#0088FE",
@@ -24,7 +24,6 @@ export default function PieChart({name, points}) {
                     "#FEF38C",
                     "#FE8CDA"
                 ],
-                borderColor: "#fff",
                 borderWidth: 2,
             },
         ],
@@ -38,7 +37,9 @@ export default function PieChart({name, points}) {
             },
             tooltip: {
                 callbacks: {
-                    label: "",
+                    label: function (tooltipItem) {
+                    return ``;
+                    },
                 },
             },
         },
