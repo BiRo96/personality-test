@@ -1,0 +1,632 @@
+[
+    {
+        "id": 1,
+        "question": "Úgy érzed, hogy belső késztetésed van mindig a „helyes dolgot” tenni, még ha mások nem is veszik észre?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 2,
+        "question": "Nehezen viseled, ha a dolgok nem szabályosak vagy nem igazságosak?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 3,
+        "question": "Zavar a rendetlenség vagy a hibák?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 4,
+        "question": "Gyakran érzel belső kritikus hangot, ami javítani akar rajtad vagy másokon?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 5,
+        "question": "Fontos számodra a fegyelem és az önkontroll?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 6,
+        "question": "Nehéz számodra lazítani, ha tudod, hogy valamit még el kell végezni?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 7,
+        "question": "Úgy érzed, mások néha túl lazán vagy felelőtlenül állnak a dolgokhoz?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 8,
+        "question": "Szeretsz szabályokat vagy irányelveket követni?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 9,
+        "question": "Úgy érzed, akkor vagy értékes, ha jó emberként viselkedsz?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 10,
+        "question": "Zavar, ha valaki más nem tartja be a közös normákat?",
+        "type": "1",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 11,
+        "question": "Könnyen észreveszed mások szükségleteit, mielőtt kimondanák?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 12,
+        "question": "Fontos számodra, hogy érezd: szeretnek és szükségük van rád?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 13,
+        "question": "Nehezen mondasz nemet, ha valaki segítséget kér?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 14,
+        "question": "Úgy érzed, akkor vagy értékes, ha másoknak hasznos vagy?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 15,
+        "question": "Sokszor előtérbe helyezed mások szükségleteit a sajátjaid előtt?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 16,
+        "question": "Fontos számodra, hogy jó kapcsolatban maradj mindenkivel?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 17,
+        "question": "Könnyen adsz szeretetet és törődést?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 18,
+        "question": "Néha csalódott vagy, ha nem viszonozzák a segítségedet?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 19,
+        "question": "Szeretsz ajándékokat vagy apró figyelmességeket adni másoknak?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 20,
+        "question": "Nehéz számodra kimondani, hogy te magad is szükségben vagy?",
+        "type": "2",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 21,
+        "question": "Gyakran méred az értékedet a teljesítményeid vagy sikereid alapján?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 22,
+        "question": "Fontos számodra, hogy mások sikeresnek és kompetensnek lássanak?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 23,
+        "question": "Néha inkább azt mutatod kifelé, amit mások elvárnak, mintsem amit belül érzel?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 24,
+        "question": "Célorientáltan közelíted meg az életet?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 25,
+        "question": "Szereted, ha elismernek vagy megdicsérnek?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 26,
+        "question": "Nehezen viseled a kudarcot vagy a sikertelenséget?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 27,
+        "question": "Úgy érzed, hogy mindig haladnod kell előre?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 28,
+        "question": "Fontos számodra, hogy jó benyomást kelts másokban?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 29,
+        "question": "Könnyen alkalmazkodsz a helyzethez, hogy sikeres legyél?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 30,
+        "question": "Úgy érzed, akkor vagy szerethető, ha teljesítesz?",
+        "type": "3",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 31,
+        "question": "Fontos számodra, hogy különlegesnek vagy egyedinek érezd magad?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 32,
+        "question": "Gyakran érzed úgy, hogy valami hiányzik belőled?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 33,
+        "question": "Erősen kötődsz a mély érzelmekhez, akár szomorúsághoz is?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 34,
+        "question": "Szeretsz kreatív módon kifejezni magad?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 35,
+        "question": "Úgy érzed, hogy mások néha nem értenek meg teljesen?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 36,
+        "question": "Hajlamos vagy összehasonlítani magad másokkal?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 37,
+        "question": "Fontos számodra az autentikus önkifejezés?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 38,
+        "question": "Néha nosztalgikusan visszavágysz a múltba?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 39,
+        "question": "Szereted mélyen megélni az érzelmeket, még ha fájdalmasak is?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 40,
+        "question": "Úgy érzed, hogy az identitásod keresése állandó folyamat?",
+        "type": "4",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 41,
+        "question": "Szeretsz visszavonulni és időt tölteni a saját gondolataidban?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 42,
+        "question": "Úgy érzed, hogy a tudás és az információ biztonságot ad?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 43,
+        "question": "Gyakran takarékoskodsz az energiáddal vagy az erőforrásaiddal, nehogy kimerülj?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 44,
+        "question": "Jobban szeretsz megfigyelni, mint részt venni?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 45,
+        "question": "Érdekelnek a mélyebb, összetett témák?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 46,
+        "question": "Néha elárasztanak az emberek túlzott érzelmi igényei?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 47,
+        "question": "Jobban bízol a logikában, mint az érzelmekben?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 48,
+        "question": "Előnyben részesíted a függetlenséget és az önállóságot?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 49,
+        "question": "Nehéz számodra a túl sok társasági interakció?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 50,
+        "question": "Úgy érzed, hogy az erőforrásaid (idő, energia, pénz) szűkösek?",
+        "type": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 51,
+        "question": "Gyakran keresel biztonságot vagy biztosítékot a környezetedben?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 52,
+        "question": "Sokszor végiggondolod a lehetséges veszélyeket, mielőtt döntesz?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 53,
+        "question": "Fontos számodra, hogy valakihez vagy valamihez hűséges maradj?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 54,
+        "question": "Hajlamos vagy aggódni a jövő miatt?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 55,
+        "question": "Úgy érzed, biztonságban vagy, ha van egy csoportod vagy közösséged?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 56,
+        "question": "Néha kételkedsz a saját döntéseidben?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 57,
+        "question": "Könnyen észreveszed a potenciális veszélyeket?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 58,
+        "question": "Fontos számodra a stabilitás és a kiszámíthatóság?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 59,
+        "question": "Néha túlzottan gyanakvóvá válsz?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 60,
+        "question": "Szívesen támaszkodsz tekintélyekre vagy megbízható vezetőkre?",
+        "type": "6",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 61,
+        "question": "Gyakran tervezel új kalandokat vagy élményeket, hogy ne unatkozz?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 62,
+        "question": "Nehezen viseled a korlátozásokat vagy a fájdalmas érzéseket?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 63,
+        "question": "Könnyen átváltasz egyik lehetőségről a másikra, mert nem akarod kihagyni az élet élvezeteit?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 64,
+        "question": "Optimistán tekintesz az életre?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 65,
+        "question": "Szeretsz több projektet párhuzamosan futtatni?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 66,
+        "question": "Nehéz számodra sokáig egy helyben maradni?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 67,
+        "question": "Úgy érzed, az élet tele van lehetőségekkel?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 68,
+        "question": "Néha inkább elterelésként keresel élményeket, hogy ne kelljen szembenézni a nehéz érzésekkel?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 69,
+        "question": "Könnyen lelkesedsz új dolgok iránt?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 70,
+        "question": "Nem szereted a monotóniát vagy a rutint?",
+        "type": "7",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 71,
+        "question": "Természetes számodra, hogy erőt és kontrollt mutass?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 72,
+        "question": "Nem szereted, ha mások irányítani próbálnak?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 73,
+        "question": "Könnyen kiállsz magadért vagy másokért, ha igazságtalanságot látsz?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 74,
+        "question": "Gyakran átvállalod a vezető szerepet?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 75,
+        "question": "Úgy érzed, hogy erősnek kell maradnod a túléléshez?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 76,
+        "question": "Nem félsz a konfliktusoktól, inkább beleállsz?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 77,
+        "question": "Nehéz számodra kimutatni a sebezhetőségedet?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 78,
+        "question": "Fontos számodra a függetlenség és az önállóság?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 79,
+        "question": "Úgy érzed, hogy a világ kemény hely, ahol meg kell védeni magad?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 80,
+        "question": "Hajlamos vagy intenzív energiát hozni minden helyzetbe?",
+        "type": "8",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 81,
+        "question": "Fontos számodra, hogy elkerüld a konfliktusokat és megőrizd a békét?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 82,
+        "question": "Néha inkább alkalmazkodsz másokhoz, mint hogy érvényesítsd a saját akaratodat?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 83,
+        "question": "Gyakran igyekszel minden oldal nézőpontját megérteni?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 84,
+        "question": "Nehéz számodra kiállni magadért?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 85,
+        "question": "Fontos számodra a belső harmónia és nyugalom?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 86,
+        "question": "Hajlamos vagy halogatni a döntéseket, hogy ne zavarj meg másokat?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 87,
+        "question": "Könnyen sodródsz az árral, ahelyett hogy ellenállnál?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 88,
+        "question": "Úgy érzed, hogy a béke fontosabb, mint az önérvényesítés?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 89,
+        "question": "Néha inkább visszahúzódsz, hogy ne legyen feszültség?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 90,
+        "question": "Jobban szereted a csendes, nyugodt környezetet, mint a zajos, konfliktusos helyzeteket?",
+        "type": "9",
+        "created_at": null,
+        "updated_at": null
+    }
+]

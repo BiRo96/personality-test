@@ -1,0 +1,224 @@
+[
+	{
+		"id": 1,
+		"question": "Jobban szeretsz csoportban dolgozni, mint egyedül.",
+		"dimension": "IE",
+		"dimension_value": 1
+	},
+	{
+		"id": 2,
+		"question": "Gyakran szükséged van egyedül töltött időre, hogy feltöltődj.",
+		"dimension": "IE",
+		"dimension_value": -1
+	},
+	{
+		"id": 3,
+		"question": "Szívesen kezdeményezel beszélgetést idegenekkel.",
+		"dimension": "IE",
+		"dimension_value": 1
+	},
+	{
+		"id": 4,
+		"question": "Szereted, ha van elegendő időd átgondolni a dolgaidat, mielőtt cselekedsz.",
+		"dimension": "IE",
+		"dimension_value": -1
+	},
+	{
+		"id": 5,
+		"question": "Szeretsz a részletekre koncentrálni, mielőtt nagy döntést hozol.",
+		"dimension": "SN",
+		"dimension_value": -1
+	},
+	{
+		"id": 6,
+		"question": "Jobban érdekelnek az elméletek és a nagyobb összefüggések, mint a konkrét tények.",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 7,
+		"question": "Gyakran keresed a nagy összefüggéseket a világban.",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 8,
+		"question": "Jobban szereted a konkrét tényekre támaszkodni, mint az elméletekre.",
+		"dimension": "SN",
+		"dimension_value": -1
+	},
+	{
+		"id": 9,
+		"question": "Fontos számodra, hogy döntéseid mások érzelmeit is figyelembe vegyék.",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 10,
+		"question": "A problémák megoldásánál inkább a logikára és az objektív tényekre támaszkodsz.",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 11,
+		"question": "Döntéseidet általában az érzelmek befolyásolják, nem a logika.",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 12,
+		"question": "Konfliktusok során inkább az objektív tényeket nézed, nem az érzéseket.",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 13,
+		"question": "Szereted előre megtervezni a napodat és betartani a menetrendet.",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 14,
+		"question": "Jobban szereted a spontán döntéseket, mint a szigorú tervezést.",
+		"dimension": "JP",
+		"dimension_value": 1
+	},
+	{
+		"id": 15,
+		"question": "Szereted, ha minden a terveid szerint alakul.",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 16,
+		"question": "Jobban szereted a rugalmasságot és a spontán döntéseket.",
+		"dimension": "JP",
+		"dimension_value": 1
+	},
+	{
+		"id": 17,
+		"question": "Amikor új projektbe kezdesz, először az apró részleteket szeretnéd megérteni.",
+		"dimension": "SN",
+		"dimension_value": -1
+	},
+	{
+		"id": 18,
+		"question": "Gyakran követed az ösztöneidet, még ha kevés konkrét információd van is.",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 19,
+		"question": "Szívesen vállalsz felelősséget a döntéseidért, még ha népszerűtlenek is.",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 20,
+		"question": "Jobban örülsz, ha másoknak segíthetsz a döntéseikben.",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 21,
+		"question": "A határidők betartása fontos számodra.",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 22,
+		"question": "Szeretsz rugalmasan reagálni a váratlan helyzetekre.",
+		"dimension": "JP",
+		"dimension_value": 1
+	},
+	{
+		"id": 23,
+		"question": "Ha nehéz helyzetbe kerülsz, először átgondolod a lehetőségeidet, majd cselekszel.",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 24,
+		"question": "Szívesen vállalod a felelősséget a közös döntésekért.",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 25,
+		"question": "Jobban szereted a baráti, támogató légkört a versengő környezetnél.",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 26,
+		"question": "Könnyen megy számodra, hogy bemutatkozz másoknak.",
+		"dimension": "IE",
+		"dimension_value": 1
+	},
+	{
+		"id": 27,
+		"question": "Szeretsz új emberekkel találkozni és kapcsolatokat építeni.",
+		"dimension": "IE",
+		"dimension_value": 1
+	},
+	{
+		"id": 28,
+		"question": "Gyakran előfordul, hogy egyedül szeretnél lenni, hogy feltöltődj.",
+		"dimension": "IE",
+		"dimension_value": -1
+	},
+	{
+		"id": 29,
+		"question": "Szeretsz a részletekre figyelni és a konkrét tényekre koncentrálni.",
+		"dimension": "SN",
+		"dimension_value": -1
+	},
+	{
+		"id": 30,
+		"question": "Gyakran inkább az elméletek és a nagyobb összefüggések érdekelnek, mint a konkrét részletek.",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 31,
+		"question": "Döntéseidet inkább logika és objektív elemzés alapján hozod meg.",
+		"dimension": "TF",
+		"dimension_value": -1
+	},
+	{
+		"id": 32,
+		"question": "Döntéseidet gyakran befolyásolják az érzelmeid és mások érzései.",
+		"dimension": "TF",
+		"dimension_value": 1
+	},
+	{
+		"id": 33,
+		"question": "Szereted, ha a dolgok rendezettek és jól szervezettek.",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 34,
+		"question": "Jobban szereted a spontán és rugalmas életmódot.",
+		"dimension": "JP",
+		"dimension_value": 1
+	},
+	{
+		"id": 35,
+		"question": "Gyakran annyira elmerülsz a gondolataidban, hogy figyelmen kívül hagyod vagy elfelejted a környezeted.",
+		"dimension": "SN",
+		"dimension_value": 1
+	},
+	{
+		"id": 36,
+		"question": "Igyekszel a lehető leghamarabb válaszolni az e-mailjeidre, és nem bírod a rendezetlen beérkező leveleket.",
+		"dimension": "JP",
+		"dimension_value": -1
+	},
+	{
+		"id": 37,
+		"question": "Könnyen nyugodt és összeszedett tudsz maradni még nyomás alatt is.",
+		"dimension": "TF",
+		"dimension_value": -1
+	}
+]
