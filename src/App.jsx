@@ -6,8 +6,8 @@ import Test from './pages/Test'
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/test' element={<Test />} />
+      <Route path='/:lang/' element={<Home/>} />
+      <Route path='/:lang/test' element={<Test />} />
     </Routes>
   )
 }
