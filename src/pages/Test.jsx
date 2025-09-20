@@ -1,17 +1,23 @@
 import { useEffect, useState } from 'react'
 import calculateMBTI from '../services/calculate_mbti'
+import calculateEnneagram from '../services/calculate_enneagram'
 import mbti_questions from '../data/mbti_questions.json'
+import enneagram_questions from '../data/enneagram_questions.json'
 import Likert from '../components/likert'
 
 function Test() {
-    const [mbtiAnswers, setMbtiAnswers] = useState(mbti_questions.map(q => ({id: q.id, answer: 0})))
+    const [mbtiAnswers, setMbtiAnswers] = useState(mbti_questions.map(q => ({...q, answer: 0})))
     const [mbtiPonts, setMbtiPoints] = useState({'IE' : 0, 'SN': 0, 'TF': 0, 'JP': 0})
-    const [enneagramAnswers, setEnneagramAnswers] = useState(mbti_questions.map(q => ({id: q.id, answer: 0})))
+    const [enneagramAnswers, setEnneagramAnswers] = useState(enneagram_questions.map(q => ({...q, answer: 0})))
     const [enneagramPoints, setEnneagramPoints] = useState({'1': 0, '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0})
 
     useEffect(() => {
         calculateMBTI({mbtiAnswers, setMbtiPoints})
     }, [mbtiAnswers])
+
+    useEffect(() => {
+        calculateEnneagram({enneagramAnswers, setEnneagramPoints})
+    }, [enneagramAnswers])
     
 
     return (
@@ -49,10 +55,10 @@ function Test() {
             <div className='flex flex-row'>
 
                 <div className='flex flex-col flex-grow'>
-                    {mbti_questions.map((question) => (
+                    {enneagram_questions.map((question) => (
                         <div key={"enneagram-" + question.id} className='flex flex-col border p-2 m-2'>
                             <p>{question.question}</p>
-                            
+                            <Likert question={question} answers={enneagramAnswers} setAnswers={setEnneagramAnswers}/>
                         </div>
                     ))}
                 </div>
