@@ -39,7 +39,7 @@ function Test() {
     return (
         <>
             <div className='flex flex-col font-bold text-2xl mb-4'>
-                Test page
+                {__("Test page")}
             </div>
 
             <TestForm name={"MBTI"} questions={mbti_questions} answers={mbtiAnswers} setAnswers={setMbtiAnswers} points={mbtiPonts} />

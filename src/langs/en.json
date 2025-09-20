@@ -1,4 +1,11 @@
 {
     "Instant personality test": "Instant personality test",
-    "Take the test": "Take the test"
+    "Take the test": "Take the test",
+
+    "Test page": "Test page",
+    "Strongly Disagree": "Strongly Disagree",
+    "Disagree": "Disagree",
+    "Neutral": "Neutral",
+    "Agree": "Agree",
+    "Strongly Agree": "Strongly Agree"
 }
