@@ -1,4 +1,6 @@
 import Likert from "../components/likert"
+import PieChart from "../components/pie_chart"
+import BarChart from "../components/bar_chart"
 
 function TestForm(
     {
@@ -9,6 +11,15 @@ function TestForm(
         points
     }
 ) {
+
+    function renderChart() {
+        if (name === "MBTI") {
+            return <BarChart name={name} points={points} />
+        } else if (name === "Enneagram") {
+            return <PieChart name={name} points={points} />
+        }
+    }
+
     return (
         <div className='flex flex-row'>
 
@@ -21,12 +32,9 @@ function TestForm(
                 ))}
             </div>
 
-            <div className='flex flex-col min-w-60'>
+            <div className='flex flex-col w-60'>
                 <div className='sticky top-0 pt-5'>
-                    {name} Points:
-                    {Object.keys(points).map((key) => (
-                        <p key={key}>{key}: {points[key]}</p>
-                    ))}
+                    {renderChart()}
                 </div>
             </div>
 
