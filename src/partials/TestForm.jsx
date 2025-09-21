@@ -25,7 +25,7 @@ function TestForm(
 
             <div className='flex flex-col flex-grow'>
                 {questions.map((question) => (
-                    <div key={"enneagram-" + question.id} className='flex flex-col border p-2 m-2'>
+                    <div key={name + "-" + question.id} className='flex flex-col border p-2 m-2'>
                         <p>{question.question}</p>
                         <Likert question={question} answers={answers} setAnswers={setAnswers}/>
                     </div>
