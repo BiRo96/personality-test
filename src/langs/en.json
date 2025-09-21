@@ -7,5 +7,14 @@
     "Disagree": "Disagree",
     "Neutral": "Neutral",
     "Agree": "Agree",
-    "Strongly Agree": "Strongly Agree"
+    "Strongly Agree": "Strongly Agree",
+
+    "Introverted": "Introverted",
+    "Extraverted": "Extraverted",
+    "Sensing": "Sensing",
+    "Intuitive": "Intuitive",
+    "Thinking": "Thinking",
+    "Feeling": "Feeling",
+    "Judging": "Judging",
+    "Perceiving": "Perceiving"
 }

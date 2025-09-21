@@ -15,6 +15,7 @@ export function LangHandler() {
         !languages.includes(lang)
         ) {
         document.location.href = '/#/en'
+        document.location.reload()
     }
 
     return ( lang )

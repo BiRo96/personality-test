@@ -7,6 +7,7 @@ import mbti_questions_en from '../data/mbti_questions_en.json'
 import enneagram_questions_en from '../data/enneagram_questions_en.json'
 import TestForm from '../partials/TestForm'
 import LangHandler, { __ } from '../components/lang_handler'
+import TestMbtiResults from '../partials/TestMbtiResults'
 
 var mbti_questions_translations = {
     'en': mbti_questions_en,
@@ -43,6 +44,8 @@ function Test() {
             </div>
 
             <TestForm name={"MBTI"} questions={mbti_questions} answers={mbtiAnswers} setAnswers={setMbtiAnswers} points={mbtiPonts} />
+
+            <TestMbtiResults points={mbtiPonts} />
 
             <hr className='my-6' />
 

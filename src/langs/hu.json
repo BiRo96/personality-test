@@ -7,5 +7,14 @@
     "Disagree": "Nem értek egyet",
     "Neutral": "Semleges",
     "Agree": "Egyetértek",
-    "Strongly Agree": "Nagyon egyetértek"
+    "Strongly Agree": "Nagyon egyetértek",
+    
+    "Introverted": "Introvertált",
+    "Extraverted": "Extravertált",
+    "Sensing": "Érzékelő",
+    "Intuitive": "Intuitív",
+    "Thinking": "Gondolkodó",
+    "Feeling": "Érző",
+    "Judging": "Ítélkező",
+    "Perceiving": "Észlelő"
 }
