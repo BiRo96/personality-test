@@ -1,5 +1,6 @@
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";
+import { __ } from "./lang_handler";
 
 
 export default function BarChart({ name, points }) {
@@ -10,7 +11,7 @@ export default function BarChart({ name, points }) {
         labels: Object.keys(points),
         datasets: [
             {
-                label: `${name} diagram`,
+                label: __(`${name} diagram`),
                 data: Object.values(points),
                 backgroundColor: [
                     "#0088FE", 
@@ -48,7 +49,7 @@ export default function BarChart({ name, points }) {
 
     return (
         <div style={{ margin: "0 auto" }}>
-            <h2>{name} diagram</h2>
+            <h2>{__(`${name} diagram`)}</h2>
             <Bar data={data} options={options} />
         </div>
     );
