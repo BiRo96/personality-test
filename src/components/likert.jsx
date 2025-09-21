@@ -25,7 +25,7 @@ function Likert({answers, setAnswers, question,}) {
             {[-2,-1,0,1,2].map((value) => (
                 <button 
                     key={"mbti-" + question.id + "-answer-" + value}
-                    className={`m-1 p-2 border ${answers.find(a => a.id === question.id).answer === value ? 'bg-green-500 text-white' : ''}`}
+                    className={`m-1 p-2 border w-full lg:w-fit ${answers.find(a => a.id === question.id).answer === value ? 'bg-green-500 text-white' : ''}`}
                     onClick={() => {
                     setAnswers(answers.map(a => a.id === question.id ? {...a, answer: value} : a))
                     }}
