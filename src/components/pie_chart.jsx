@@ -7,6 +7,11 @@ export default function PieChart({name, points}) {
     // Chart.js modulok regisztrálása
     ChartJS.register(ArcElement, Tooltip, Legend);    
 
+    // remove minus values
+    for (const [key, value] of Object.entries(points)) {
+        points[key] = Math.max(0, value);
+    }
+
     const data = {
         labels: Object.keys(points),
         datasets: [
