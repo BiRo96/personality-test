@@ -21,5 +21,10 @@
     "Thinking": "Gondolkodó",
     "Feeling": "Érző",
     "Judging": "Ítélkező",
-    "Perceiving": "Észlelő"
+    "Perceiving": "Észlelő",
+
+    "Enneagram Results": "Enneagram Eredmények",
+    "Your dominant Enneagram type": "A te domináns Enneagram típusod",
+    "Dominant type": "Domináns típus",
+    "You have not answered any questions yet. Or your points are all zeroes.": "Még nem válaszoltál egyetlen kérdésre sem. Vagy a pontjaid mind nullák."
 }

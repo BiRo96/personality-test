@@ -14,4 +14,18 @@ function calculateEnneagram({enneagramAnswers, setEnneagramPoints}) {
     setEnneagramPoints(points)
 }
 
+export function getDominantEnneagram(points) {
+    let dominantType = null
+    let maxPoints = -Infinity
+
+    for (const [type, point] of Object.entries(points)) {
+        if (point > maxPoints && point > 0) {
+            maxPoints = point
+            dominantType = type
+        }
+    }
+
+    return dominantType
+}
+
 export default calculateEnneagram;

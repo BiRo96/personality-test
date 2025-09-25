@@ -8,6 +8,7 @@ import enneagram_questions_en from '../data/enneagram_questions_en.json'
 import TestForm from '../partials/TestForm'
 import LangHandler, { __ } from '../components/lang_handler'
 import TestMbtiResults from '../partials/TestMbtiResults'
+import TestEnneagramResults from '../partials/TestEnneagramResults'
 
 var mbti_questions_translations = {
     'en': mbti_questions_en,
@@ -24,7 +25,7 @@ function Test() {
     let enneagram_questions = enneagram_questions_translations[lang]
 
     const [mbtiAnswers, setMbtiAnswers] = useState(mbti_questions.map(q => ({...q, answer: 0})))
-    const [mbtiPonts, setMbtiPoints] = useState({'IE' : 0, 'SN': 0, 'TF': 0, 'JP': 0})
+    const [mbtiPoints, setMbtiPoints] = useState({'IE' : 0, 'SN': 0, 'TF': 0, 'JP': 0})
     const [enneagramAnswers, setEnneagramAnswers] = useState(enneagram_questions.map(q => ({...q, answer: 0})))
     const [enneagramPoints, setEnneagramPoints] = useState({'1': 0, '2': 0, '3': 0, '4': 0, '5': 0, '6': 0, '7': 0, '8': 0, '9': 0})
 
@@ -43,14 +44,15 @@ function Test() {
                 {__("Test page")}
             </div>
 
-            <TestForm name={"MBTI"} questions={mbti_questions} answers={mbtiAnswers} setAnswers={setMbtiAnswers} points={mbtiPonts} />
+            <TestForm name={"MBTI"} questions={mbti_questions} answers={mbtiAnswers} setAnswers={setMbtiAnswers} points={mbtiPoints} />
 
-            <TestMbtiResults points={mbtiPonts} />
+            <TestMbtiResults points={mbtiPoints} />
 
             <hr className='my-6' />
 
             <TestForm name={"Enneagram"} questions={enneagram_questions} answers={enneagramAnswers} setAnswers={setEnneagramAnswers} points={enneagramPoints} />
 
+            <TestEnneagramResults points={enneagramPoints} />
         </>
     )    
 }

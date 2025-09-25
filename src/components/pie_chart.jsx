@@ -6,18 +6,19 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 export default function PieChart({name, points}) {
     // Chart.js modulok regisztrálása
     ChartJS.register(ArcElement, Tooltip, Legend);    
-
+    
+    let chartPoints = points ? {...points} : {};
     // remove minus values
     for (const [key, value] of Object.entries(points)) {
-        points[key] = Math.max(0, value);
+        chartPoints[key] = Math.max(0, value);
     }
 
     const data = {
-        labels: Object.keys(points),
+        labels: Object.keys(chartPoints),
         datasets: [
             {
                 label: name + " diagram",
-                data: Object.values(points),
+                data: Object.values(chartPoints),
                 backgroundColor: [
                     "#0088FE",
                     "#00C49F",
